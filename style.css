@@ -1,0 +1,24 @@
+body {
+  min-width: 1170px;
+}
+
+.projects {
+  border: 2px solid black;
+  max-height: 450px;
+  max-width: 1200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.logos img {
+  max-width: 160px;
+  max-height: 160px;
+}
